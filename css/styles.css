@@ -240,7 +240,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #0085A1;
+  color: #dc3545;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3894,7 +3894,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0085A1;
+  color: #dc3545;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -3936,7 +3936,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #0085A1;
+  background-color: #dc3545;
 }
 
 .nav-fill > .nav-link,
@@ -4404,7 +4404,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #dc3545;
 }
 
 .navbar-dark .navbar-brand {
@@ -4439,7 +4439,7 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a,
 .navbar-dark .navbar-text a:hover,
 .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #dc3545;
 }
 
 .card {
@@ -11080,7 +11080,7 @@ blockquote {
 }
 @media (min-width: 992px) {
   #mainNav {
-    transition: background-color 0.2s;
+    transition: background-color 0.01s;
     /* Force Hardware Acceleration in WebKit */
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
@@ -11090,7 +11090,7 @@ blockquote {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -83px;
-    transition: transform 0.2s;
+    transition: transform 0.01s;
     border-bottom: 1px solid white;
     background-color: rgba(255, 255, 255, 0.9);
   }
@@ -11098,13 +11098,13 @@ blockquote {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+    color: #dc3545;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
   #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+    color: #dc3545;
   }
   #mainNav.is-visible {
     /* if the user changes the scrolling direction, we show the header */
@@ -11221,7 +11221,7 @@ header.masthead .site-heading .h1 {
 }
 .post-preview > a:focus, .post-preview > a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #dc3545;
 }
 .post-preview > a > .post-title {
   font-size: 1.875rem;
